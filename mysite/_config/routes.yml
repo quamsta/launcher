@@ -1,0 +1,16 @@
+---
+Name: mysiteroutes
+After: framework/routes#adminroutes
+---
+Director:
+  rules:
+    'Security//$Action/$ID/$OtherID': 'Security'
+    'CMSSecurity//$Action/$ID/$OtherID': 'CMSSecurity'
+    'dev': 'DevelopmentAdmin'
+    'interactive': 'SapphireREPL'
+    'InstallerTest//$Action/$ID/$OtherID': 'InstallerTest'
+    'JSTestRunner//$Action/$ID/$OtherID': 'JSTestRunner'
+    'SapphireInfo//$Action/$ID/$OtherID': 'SapphireInfo'
+    'SapphireREPL//$Action/$ID/$OtherID': 'SapphireREPL'
+    'admin': 'AdminRootController'
+    '$ID//': 'HomeController'
