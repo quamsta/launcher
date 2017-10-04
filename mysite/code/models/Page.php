@@ -7,4 +7,8 @@ class Page extends SiteTree
 
     private static $has_one = array(
     );
+
+    private static $allowed_children = array(
+
+   	);
 }

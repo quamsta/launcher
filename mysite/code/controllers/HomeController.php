@@ -34,7 +34,10 @@ class HomeController extends Page_Controller
             if($home) return $home->renderWith('Page');
         }
 
-        $launcher = Launcher::get()->filter(array('URLSegment' => $id))->First();
+        $launcher = Launcher::get()->filter(array(
+            'URLSegment' => $id,
+            'Approved' => 1
+        ))->First();
 
         if($launcher){
             //analytics here??

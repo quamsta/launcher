@@ -1,0 +1,26 @@
+.nav{
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+	margin-bottom: 20px;
+	background: #333;
+}
+.nav__spaceship{
+	display: block;
+	float: left;
+	max-width: 100px;
+}
+
+.nav__lockup{
+	padding-left: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+}
+.nav__title{
+	font-size: 4rem;
+	color: white;
+}
+.nav__tagline{
+	color: #ccc;
+	font-size: 1.4rem;
+}

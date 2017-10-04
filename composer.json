@@ -12,8 +12,7 @@
 		"symbiote/silverstripe-gridfieldextensions" : "2.*"
 	},
 	"require-dev": {
-		"phpunit/PHPUnit": "~3.7@stable",
-		"lekoala/silverstripe-debugbar": "^1.0"
+		"phpunit/PHPUnit": "~3.7@stable"
 	},
 	"extra": {
 		"branch-alias": {

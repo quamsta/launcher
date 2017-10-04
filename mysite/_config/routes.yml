@@ -13,4 +13,6 @@ Director:
     'SapphireInfo//$Action/$ID/$OtherID': 'SapphireInfo'
     'SapphireREPL//$Action/$ID/$OtherID': 'SapphireREPL'
     'admin': 'AdminRootController'
+    'add//$ID' : 'AddController'
+    'AddController' : 'AddController'
     '$ID//': 'HomeController'
