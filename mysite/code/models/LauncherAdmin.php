@@ -8,7 +8,7 @@ class LauncherAdmin extends ModelAdmin {
 
     private static $field_labels = array(
       'URLSegment' => 'URL' // renames the column to "Cost"
-   );
+    );
 
     private static $url_segment = 'launchers';
 
